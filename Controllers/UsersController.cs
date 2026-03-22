@@ -516,7 +516,7 @@ namespace CosmeticShopAPI.Controllers
                     await file.CopyToAsync(stream);
                 }
 
-                string dbName = "CosmeticsShopDB"; 
+                string dbName = "CosmeticsShopDB";
 
                 string masterConn = _configuration.GetConnectionString("AdminConnection")
                                   ?? _configuration.GetConnectionString("DefaultConnection");

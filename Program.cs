@@ -25,9 +25,9 @@ builder.Services.AddControllers()
                 .Where(x => x.Value?.Errors.Count > 0)
                 .ToDictionary(
                     kvp => kvp.Key,
-                    kvp => kvp.Value.Errors.Select(e => 
-                        !string.IsNullOrEmpty(e.ErrorMessage) 
-                            ? e.ErrorMessage 
+                    kvp => kvp.Value.Errors.Select(e =>
+                        !string.IsNullOrEmpty(e.ErrorMessage)
+                            ? e.ErrorMessage
                             : "Неверное значение").ToArray()
                 );
 

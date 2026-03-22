@@ -19,17 +19,13 @@ before_script:
   - echo "=== Проверка окружения ==="
 
 # Проверка сборки проекта (аналог build-check)
+# Артефакты отключены: при 500 от GitLab (bind mount) — включите volume для artifacts, см. CI_README.md
 build-check:
   stage: validate
   script:
     - echo "=== Проверка сборки проекта ==="
     - dotnet restore $PROJECT_PATH
     - dotnet build $PROJECT_PATH -c Release --no-restore
-  artifacts:
-    paths:
-      - "**/bin/"
-      - "**/obj/"
-    expire_in: 1 hour
 
 # Линтер (проверка форматирования кода)
 lint-check:

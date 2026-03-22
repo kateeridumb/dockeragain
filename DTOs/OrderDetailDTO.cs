@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CosmeticShopAPI.DTOs 
+namespace CosmeticShopAPI.DTOs
 {
     public class OrderDetailDTO
     {

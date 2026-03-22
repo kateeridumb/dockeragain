@@ -64,13 +64,13 @@ namespace CosmeticShopAPI.Controllers
 
         private static string GetCategoryIcon(int categoryId) => categoryId switch
         {
-            1 => "💄",  
-            2 => "✨",  
-            3 => "🌺",  
-            4 => "💆‍♀️", 
-            5 => "🛁",  
-            6 => "🌟",  
-            _ => "📦"   
+            1 => "💄",
+            2 => "✨",
+            3 => "🌺",
+            4 => "💆‍♀️",
+            5 => "🛁",
+            6 => "🌟",
+            _ => "📦"
         };
 
 
