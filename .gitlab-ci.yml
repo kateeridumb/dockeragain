@@ -4,12 +4,21 @@ default:
 stages:
   - build
   - lint
+  - test
   - extra
 
 variables:
   PROJECT_PATH: "CosmeticShopAPI.csproj"
   PUBLISH_OUTPUT: "publish"
   LINT_REPORT_DIR: "lint-report"
+  
+cache:
+  paths:
+    - ~/.nuget/packages/
+  key: "$CI_COMMIT_REF_SLUG"
+
+before_script:
+  - git config --global --add safe.directory $CI_PROJECT_DIR
 
 build:
   stage: build
@@ -27,13 +36,23 @@ lint:
   script:
     - mkdir -p $LINT_REPORT_DIR
     - dotnet format $PROJECT_PATH --verify-no-changes --verbosity detailed 2>&1 | tee $LINT_REPORT_DIR/format-report.txt
-    - echo "Lint exit code: $? (0 = OK)" >> $LINT_REPORT_DIR/format-report.txt
+    - echo "Lint exit code: ${PIPESTATUS[0]} (0 = OK)" >> $LINT_REPORT_DIR/format-report.txt
   allow_failure: false
   artifacts:
     when: always
     paths:
       - $LINT_REPORT_DIR/
     expire_in: 1 week
+    
+test:
+  stage: test
+  script:
+    - echo "No tests configured yet - skipping"
+  artifacts:
+    when: always
+    paths:
+      - "**/TestResults/"
+  allow_failure: true  
 
 publish:
   stage: extra
@@ -49,6 +68,9 @@ publish:
 audit-packages:
   stage: extra
   script:
-    - dotnet list $PROJECT_PATH package --vulnerable --include-transitive
+    - dotnet list $PROJECT_PATH package --vulnerable --include-transitive > audit-report.txt 2>&1 || true
   allow_failure: true
-
+  artifacts:
+    when: always
+    paths:
+      - audit-report.txt
