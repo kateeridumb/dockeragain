@@ -5,21 +5,17 @@ stages:
   - publish
 
 variables:
-  GIT_STRATEGY: clone
+  GIT_STRATEGY: fetch
   PROJECT_PATH: "CosmeticShopAPI.csproj"
   PUBLISH_OUTPUT: "publish"
 
-# Используем официальный образ .NET
 image: mcr.microsoft.com/dotnet/sdk:8.0
 
-# Проверка версии .NET
 before_script:
   - echo "=== Версия .NET SDK ==="
   - dotnet --version
   - echo "=== Проверка окружения ==="
 
-# Проверка сборки проекта (аналог build-check)
-# Артефакты отключены: при 500 от GitLab (bind mount) — включите volume для artifacts, см. CI_README.md
 build-check:
   stage: validate
   script:
@@ -27,7 +23,6 @@ build-check:
     - dotnet restore $PROJECT_PATH
     - dotnet build $PROJECT_PATH -c Release --no-restore
 
-# Линтер (проверка форматирования кода)
 lint-check:
   stage: validate
   script:
@@ -35,7 +30,6 @@ lint-check:
     - dotnet format $PROJECT_PATH --verify-no-changes --verbosity minimal
   allow_failure: true
 
-# Запуск тестов
 test-backend:
   stage: test
   script:
@@ -43,7 +37,6 @@ test-backend:
     - dotnet test $PROJECT_PATH --no-build --verbosity normal
   allow_failure: true
 
-# Проверка уязвимостей пакетов (аналог audit)
 security-audit:
   stage: validate
   script:
@@ -51,7 +44,6 @@ security-audit:
     - dotnet list $PROJECT_PATH package --vulnerable --include-transitive || echo "Уязвимости не найдены"
   allow_failure: true
 
-# Проверка запуска приложения (как run-backend)
 run-backend:
   stage: publish
   script:
