@@ -11,7 +11,7 @@ variables:
   PROJECT_PATH: "CosmeticShopAPI.csproj"
   PUBLISH_OUTPUT: "publish"
   LINT_REPORT_DIR: "lint-report"
-  
+
 cache:
   paths:
     - ~/.nuget/packages/
@@ -43,16 +43,12 @@ lint:
     paths:
       - $LINT_REPORT_DIR/
     expire_in: 1 week
-    
+
 test:
   stage: test
   script:
     - echo "No tests configured yet - skipping"
-  artifacts:
-    when: always
-    paths:
-      - "**/TestResults/"
-  allow_failure: true  
+  allow_failure: true
 
 publish:
   stage: extra
@@ -64,6 +60,9 @@ publish:
     paths:
       - $PUBLISH_OUTPUT/
     expire_in: 1 week
+  only:
+    - main
+    - master
 
 audit-packages:
   stage: extra
