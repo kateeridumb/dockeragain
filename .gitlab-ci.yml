@@ -1,0 +1,54 @@
+default:
+  image: mcr.microsoft.com/dotnet/sdk:8.0
+
+stages:
+  - build
+  - lint
+  - extra
+
+variables:
+  PROJECT_PATH: "CosmeticShopAPI.csproj"
+  PUBLISH_OUTPUT: "publish"
+  LINT_REPORT_DIR: "lint-report"
+
+build:
+  stage: build
+  script:
+    - dotnet restore $PROJECT_PATH
+    - dotnet build $PROJECT_PATH -c Release --no-restore
+  artifacts:
+    paths:
+      - "**/bin/"
+      - "**/obj/"
+    expire_in: 1 hour
+
+lint:
+  stage: lint
+  script:
+    - mkdir -p $LINT_REPORT_DIR
+    - dotnet format $PROJECT_PATH --verify-no-changes --verbosity detailed 2>&1 | tee $LINT_REPORT_DIR/format-report.txt
+    - echo "Lint exit code: $? (0 = OK)" >> $LINT_REPORT_DIR/format-report.txt
+  allow_failure: false
+  artifacts:
+    when: always
+    paths:
+      - $LINT_REPORT_DIR/
+    expire_in: 1 week
+
+publish:
+  stage: extra
+  script:
+    - dotnet restore $PROJECT_PATH
+    - dotnet publish $PROJECT_PATH -c Release -o $PUBLISH_OUTPUT
+  artifacts:
+    when: on_success
+    paths:
+      - $PUBLISH_OUTPUT/
+    expire_in: 1 week
+
+audit-packages:
+  stage: extra
+  script:
+    - dotnet list $PROJECT_PATH package --vulnerable --include-transitive
+  allow_failure: true
+
