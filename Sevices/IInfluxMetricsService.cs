@@ -1,4 +1,4 @@
-﻿using CosmeticShopAPI.Models;
+using CosmeticShopAPI.Models;
 using InfluxDB.Client;
 using InfluxDB.Client.Api.Domain;
 using Microsoft.EntityFrameworkCore;

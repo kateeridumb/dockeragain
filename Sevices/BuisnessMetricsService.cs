@@ -1,4 +1,4 @@
-﻿using Prometheus;
+using Prometheus;
 using CosmeticShopAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
