@@ -36,7 +36,7 @@ lint:
   script:
     - mkdir -p $LINT_REPORT_DIR
     - dotnet format $PROJECT_PATH --verify-no-changes --verbosity detailed 2>&1 | tee $LINT_REPORT_DIR/format-report.txt
-    - echo "Lint exit code: ${PIPESTATUS[0]} (0 = OK)" >> $LINT_REPORT_DIR/format-report.txt
+    - echo "Lint exit code: $? (0 = OK)" >> $LINT_REPORT_DIR/format-report.txt
   allow_failure: false
   artifacts:
     when: always
