@@ -1,22 +1,14 @@
 stages:
   - build
 
-image: ubuntu:22.04
+image: mcr.microsoft.com/dotnet/sdk:8.0
 
 variables:
   PROJECT_PATH: "CosmeticShopAPI.csproj"
 
-before_script:
-  - apt-get update
-  - apt-get install -y wget apt-transport-https
-  - wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
-  - dpkg -i packages-microsoft-prod.deb
-  - apt-get update
-  - apt-get install -y dotnet-sdk-8.0
-  - dotnet --version
-
 build:
   stage: build
   script:
+    - dotnet --version
     - dotnet restore $PROJECT_PATH
     - dotnet build $PROJECT_PATH -c Release
