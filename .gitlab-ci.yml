@@ -1,64 +1,22 @@
 stages:
   - build
-  - test
-  - publish
+
+image: ubuntu:22.04
 
 variables:
   PROJECT_PATH: "CosmeticShopAPI.csproj"
-  PUBLISH_OUTPUT: "publish"
-  DOTNET_VERSION: "8.0"
 
-image: mcr.microsoft.com/dotnet/sdk:8.0
-
-cache:
-  paths:
-    - ~/.nuget/packages/
-  key: "$CI_COMMIT_REF_SLUG"
+before_script:
+  - apt-get update
+  - apt-get install -y wget apt-transport-https
+  - wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+  - dpkg -i packages-microsoft-prod.deb
+  - apt-get update
+  - apt-get install -y dotnet-sdk-8.0
+  - dotnet --version
 
 build:
   stage: build
   script:
-    - echo "=== Восстановление NuGet пакетов ==="
     - dotnet restore $PROJECT_PATH
-    
-    - echo "=== Сборка проекта ==="
-    - dotnet build $PROJECT_PATH -c Release --no-restore
-  artifacts:
-    paths:
-      - "**/bin/"
-      - "**/obj/"
-    expire_in: 1 hour
-
-lint:
-  stage: test
-  script:
-    - echo "=== Проверка форматирования кода ==="
-    - dotnet format $PROJECT_PATH --verify-no-changes --verbosity minimal
-  allow_failure: true  
-
-test:
-  stage: test
-  script:
-    - echo "=== Запуск тестов ==="
-    - echo "Тесты не настроены. Пропускаем..."
-  allow_failure: true
-
-security-check:
-  stage: test
-  script:
-    - echo "=== Проверка уязвимостей NuGet пакетов ==="
-    - dotnet list $PROJECT_PATH package --vulnerable --include-transitive || true
-  allow_failure: true
-publish:
-  stage: publish
-  script:
-    - echo "=== Публикация приложения ==="
-    - dotnet restore $PROJECT_PATH
-    - dotnet publish $PROJECT_PATH -c Release -o $PUBLISH_OUTPUT
-  artifacts:
-    paths:
-      - $PUBLISH_OUTPUT/
-    expire_in: 1 week
-  only:
-    - main
-    - master
+    - dotnet build $PROJECT_PATH -c Release
