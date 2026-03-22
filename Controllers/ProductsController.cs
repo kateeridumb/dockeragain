@@ -1,4 +1,4 @@
-﻿using CosmeticShopAPI.DTOs;
+using CosmeticShopAPI.DTOs;
 using CosmeticShopAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

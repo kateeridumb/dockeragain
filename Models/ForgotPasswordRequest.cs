@@ -1,4 +1,4 @@
-﻿namespace CosmeticShopAPI.Models
+namespace CosmeticShopAPI.Models
 {
     public class ForgotPasswordRequest
     {

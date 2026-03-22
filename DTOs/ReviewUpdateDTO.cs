@@ -1,4 +1,4 @@
-﻿namespace CosmeticShopAPI.DTOs
+namespace CosmeticShopAPI.DTOs
 {
     public class ReviewUpdateDTO
     {

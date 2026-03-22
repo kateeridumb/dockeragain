@@ -1,4 +1,4 @@
-﻿namespace CosmeticShopWeb.Models
+namespace CosmeticShopWeb.Models
 {
     public class ApiResponse<T>
     {
