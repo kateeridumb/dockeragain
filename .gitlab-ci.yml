@@ -35,20 +35,17 @@ lint:
   stage: lint
   script:
     - mkdir -p $LINT_REPORT_DIR
-    - dotnet format $PROJECT_PATH --verify-no-changes --verbosity detailed 2>&1 | tee $LINT_REPORT_DIR/format-report.txt
-    - echo "Lint exit code: $? (0 = OK)" >> $LINT_REPORT_DIR/format-report.txt
+    - |
+      dotnet format $PROJECT_PATH --verify-no-changes --verbosity detailed 2>&1 | tee $LINT_REPORT_DIR/format-report.txt
+      EXIT_CODE=${PIPESTATUS[0]}
+      echo "Lint exit code: $EXIT_CODE (0 = OK)" >> $LINT_REPORT_DIR/format-report.txt
+      exit $EXIT_CODE
   allow_failure: false
   artifacts:
     when: always
     paths:
       - $LINT_REPORT_DIR/
     expire_in: 1 week
-
-test:
-  stage: test
-  script:
-    - echo "No tests configured yet - skipping"
-  allow_failure: true
 
 publish:
   stage: extra
