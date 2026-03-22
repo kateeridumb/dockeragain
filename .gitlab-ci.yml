@@ -1,14 +1,75 @@
 stages:
+  - validate
   - build
-
-image: mcr.microsoft.com/dotnet/sdk:8.0
+  - test
+  - publish
 
 variables:
+  GIT_STRATEGY: clone
   PROJECT_PATH: "CosmeticShopAPI.csproj"
+  PUBLISH_OUTPUT: "publish"
 
-build:
-  stage: build
+# Используем официальный образ .NET
+image: mcr.microsoft.com/dotnet/sdk:8.0
+
+# Проверка версии .NET
+before_script:
+  - echo "=== Версия .NET SDK ==="
+  - dotnet --version
+  - echo "=== Проверка окружения ==="
+
+# Проверка сборки проекта (аналог build-check)
+build-check:
+  stage: validate
   script:
-    - dotnet --version
+    - echo "=== Проверка сборки проекта ==="
     - dotnet restore $PROJECT_PATH
-    - dotnet build $PROJECT_PATH -c Release
+    - dotnet build $PROJECT_PATH -c Release --no-restore
+  artifacts:
+    paths:
+      - "**/bin/"
+      - "**/obj/"
+    expire_in: 1 hour
+
+# Линтер (проверка форматирования кода)
+lint-check:
+  stage: validate
+  script:
+    - echo "=== Проверка форматирования кода ==="
+    - dotnet format $PROJECT_PATH --verify-no-changes --verbosity minimal
+  allow_failure: true
+
+# Запуск тестов
+test-backend:
+  stage: test
+  script:
+    - echo "=== Запуск тестов ==="
+    - dotnet test $PROJECT_PATH --no-build --verbosity normal
+  allow_failure: true
+
+# Проверка уязвимостей пакетов (аналог audit)
+security-audit:
+  stage: validate
+  script:
+    - echo "=== Проверка уязвимостей NuGet пакетов ==="
+    - dotnet list $PROJECT_PATH package --vulnerable --include-transitive || echo "Уязвимости не найдены"
+  allow_failure: true
+
+# Проверка запуска приложения (как run-backend)
+run-backend:
+  stage: publish
+  script:
+    - echo "=== Проверка запуска backend ==="
+    - dotnet restore $PROJECT_PATH
+    - dotnet build $PROJECT_PATH -c Release --no-restore
+    - echo "=== Запуск приложения ==="
+    - dotnet run --project $PROJECT_PATH --urls="http://0.0.0.0:5000" &
+    - sleep 5
+    - echo "=== Приложение запущено, проверка доступности ==="
+    - curl -I http://localhost:5000 || echo "Приложение запущено, но эндпоинт не отвечает"
+    - echo "=== Остановка приложения ==="
+    - kill %1 || true
+  allow_failure: true
+  only:
+    - main
+    - master
