@@ -1,0 +1,29 @@
+name: cosmetics
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  validate:
+    name: validate asp
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checout repository
+        uses: actions/checkout@v6
+
+      - name: set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Create venv install libs
+        run: |
+          - echo "=== Версия .NET SDK ==="
+          - dotnet --version
+          - echo "=== Проверка окружения ==="
+        
+      - name: Check bulid asp
+          - echo "=== Проверка сборки проекта ==="
+          - dotnet restore $PROJECT_PATH
+          - dotnet build $PROJECT_PATH -c Release --no-restore
