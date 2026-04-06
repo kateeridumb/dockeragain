@@ -12,15 +12,15 @@ jobs:
     name: build-check
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Проверка репы
+        uses: actions/checkout@v6
 
-      - name: Set up .NET SDK
-        uses: actions/setup-dotnet@v4
+      - name: Установка SDK
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "8.0.x"
 
-      - name: SDK version and environment
+      - name: Версия .NET SDK
         run: |
           echo "=== Версия .NET SDK ==="
           dotnet --version
@@ -37,15 +37,15 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-      - name: Checkout repository
+      - name: Проверка репы
         uses: actions/checkout@v6
 
-      - name: Set up .NET SDK
+      - name: Установка SDK
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "8.0.x"
 
-      - name: SDK version and environment
+      - name: Версия .NET SDK и окружение
         run: |
           echo "=== Версия .NET SDK ==="
           dotnet --version
@@ -62,15 +62,15 @@ jobs:
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
-      - name: Checkout repository
+      - name: Проверка репы
         uses: actions/checkout@v6
 
-      - name: Set up .NET SDK
+      - name: Установка SDK
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "8.0.x"
 
-      - name: SDK version and environment
+      - name: Версия .NET SDK и окружение
         run: |
           echo "=== Версия .NET SDK ==="
           dotnet --version
@@ -87,10 +87,10 @@ jobs:
     needs: [build-check]
     continue-on-error: true
     steps:
-      - name: Checkout repository
+      - name: Проверка репы
         uses: actions/checkout@v6
 
-      - name: Set up .NET SDK
+      - name: Установка SDK
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "8.0.x"
@@ -108,15 +108,15 @@ jobs:
     if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
     continue-on-error: true
     steps:
-      - name: Checkout repository
+      - name: Проверка репы
         uses: actions/checkout@v6
 
-      - name: Set up .NET SDK
-        uses: actions/setup-dotnet@v4
+      - name: Установка SDK
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "8.0.x"
 
-      - name: SDK version and environment
+      - name: Версия .NET SDK и окружение
         run: |
           echo "=== Версия .NET SDK ==="
           dotnet --version
