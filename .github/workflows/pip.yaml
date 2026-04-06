@@ -122,6 +122,7 @@ jobs:
           dotnet --version
           echo "=== Проверка окружения ==="
 
+
       - name: Проверка запуска backend
         run: |
           echo "=== Проверка запуска backend ==="
