@@ -504,48 +504,9 @@
               "RelativeDocumentMoniker": ".gitlab-ci.yml",
               "ToolTip": "C:\\Users\\PRO\\source\\repos\\CosmeticShopAPI\\.gitlab-ci.yml",
               "RelativeToolTip": ".gitlab-ci.yml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAADYAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAADYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-03-22T12:45:16.29Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IInfluxMetricsService.cs",
-              "DocumentMoniker": "C:\\Users\\PRO\\source\\repos\\CosmeticShopAPI\\Sevices\\IInfluxMetricsService.cs",
-              "RelativeDocumentMoniker": "Sevices\\IInfluxMetricsService.cs",
-              "ToolTip": "C:\\Users\\PRO\\source\\repos\\CosmeticShopAPI\\Sevices\\IInfluxMetricsService.cs",
-              "RelativeToolTip": "Sevices\\IInfluxMetricsService.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowEAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T09:38:25.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PRO\\source\\repos\\CosmeticShopWeb\\Models\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "..\\CosmeticShopWeb\\Models\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\PRO\\source\\repos\\CosmeticShopWeb\\Models\\RegisterViewModel.cs",
-              "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:37:20.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PRO\\source\\repos\\CosmeticShopWeb\\Views\\Manager\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\CosmeticShopWeb\\Views\\Manager\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PRO\\source\\repos\\CosmeticShopWeb\\Views\\Manager\\Index.cshtml",
-              "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Manager\\Index.cshtml",
-              "ViewState": "AgIAAA0BAAAAAAAAAAAowMsBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-16T10:03:59.375Z",
               "EditorCaption": ""
             },
             {
@@ -558,8 +519,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAABAAAAAAAAAAAABhwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-22T07:19:54.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:19:54.584Z"
             },
             {
               "$type": "Document",
@@ -571,8 +531,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-26T12:46:09.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T12:46:09.455Z"
             },
             {
               "$type": "Document",
@@ -584,8 +543,7 @@
               "RelativeToolTip": "CosmeticShopAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-21T18:35:02.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T18:35:02.798Z"
             },
             {
               "$type": "Document",
@@ -597,8 +555,47 @@
               "RelativeToolTip": "Sevices\\TokenService.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:49:09.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:49:09.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IInfluxMetricsService.cs",
+              "DocumentMoniker": "C:\\Users\\PRO\\source\\repos\\CosmeticShopAPI\\Sevices\\IInfluxMetricsService.cs",
+              "RelativeDocumentMoniker": "Sevices\\IInfluxMetricsService.cs",
+              "ToolTip": "C:\\Users\\PRO\\source\\repos\\CosmeticShopAPI\\Sevices\\IInfluxMetricsService.cs",
+              "RelativeToolTip": "Sevices\\IInfluxMetricsService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T09:38:25.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\PRO\\source\\repos\\CosmeticShopWeb\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "..\\CosmeticShopWeb\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\PRO\\source\\repos\\CosmeticShopWeb\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T15:37:20.322Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PRO\\source\\repos\\CosmeticShopWeb\\Views\\Manager\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\CosmeticShopWeb\\Views\\Manager\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PRO\\source\\repos\\CosmeticShopWeb\\Views\\Manager\\Index.cshtml",
+              "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Manager\\Index.cshtml",
+              "ViewState": "AgIAAA0BAAAAAAAAAAAowMsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-16T10:03:59.375Z"
             },
             {
               "$type": "Document",
@@ -610,8 +607,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAACBjwGMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-17T20:06:41.509Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-17T20:06:41.509Z"
             },
             {
               "$type": "Document",
@@ -623,8 +619,7 @@
               "RelativeToolTip": "Sevices\\BuisnessMetricsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:13:03.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:13:03.208Z"
             },
             {
               "$type": "Document",
@@ -636,8 +631,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAUwCEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T15:13:48.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T15:13:48.117Z"
             },
             {
               "$type": "Document",
@@ -649,8 +643,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Controllers\\OrderController.cs",
               "ViewState": "AgIAAPwCAAAAAAAAAAAswIQCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:53:43.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:53:43.211Z"
             },
             {
               "$type": "Document",
@@ -662,8 +655,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\DeleteRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:09:53.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T08:09:53.431Z"
             },
             {
               "$type": "Document",
@@ -675,8 +667,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\CategoryWithProductsViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:14:21.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:14:21.879Z"
             },
             {
               "$type": "Document",
@@ -688,8 +679,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Controllers\\AccountController.cs",
               "ViewState": "AgIAANgAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T19:24:57.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T19:24:57.399Z"
             },
             {
               "$type": "Document",
@@ -701,8 +691,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\PaymentOption.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:53:15.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:53:15.881Z"
             },
             {
               "$type": "Document",
@@ -714,8 +703,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAANcAAAAAAAAAAAAswDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T07:27:17.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T07:27:17.274Z"
             },
             {
               "$type": "Document",
@@ -727,8 +715,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ProductViewModel.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAiwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T08:15:52.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T08:15:52.171Z"
             },
             {
               "$type": "Document",
@@ -740,8 +727,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ProductInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:11:34.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:11:34.457Z"
             },
             {
               "$type": "Document",
@@ -753,8 +739,7 @@
               "RelativeToolTip": "Controllers\\UserProfilesController.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAkwEIAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:29:34.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:29:34.162Z"
             },
             {
               "$type": "Document",
@@ -766,8 +751,7 @@
               "RelativeToolTip": "Controllers\\AuditLogsController.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAmwGUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:26:54.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:26:54.945Z"
             },
             {
               "$type": "Document",
@@ -779,8 +763,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\UserViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T11:53:46.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T11:53:46.741Z"
             },
             {
               "$type": "Document",
@@ -792,8 +775,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Controllers\\CartController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAApwDIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T05:54:02.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T05:54:02.523Z"
             },
             {
               "$type": "Document",
@@ -805,8 +787,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\UpdateProfileViewModel.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAmwCcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:21:10.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:21:10.038Z"
             },
             {
               "$type": "Document",
@@ -818,8 +799,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\UserLoginResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T13:25:02.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T13:25:02.522Z"
             },
             {
               "$type": "Document",
@@ -831,8 +811,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ReviewViewModel.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAUwB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T08:01:42.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T08:01:42.834Z"
             },
             {
               "$type": "Document",
@@ -844,8 +823,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ResetPasswordViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:21:22.012Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:21:22.012Z"
             },
             {
               "$type": "Document",
@@ -857,8 +835,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\RegisterEmployeeViewModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAiwB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T20:10:17.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T20:10:17.728Z"
             },
             {
               "$type": "Document",
@@ -870,8 +847,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ProfileViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T07:50:46.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-24T07:50:46.262Z"
             },
             {
               "$type": "Document",
@@ -883,8 +859,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ProductListViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:13:19.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:13:19.137Z"
             },
             {
               "$type": "Document",
@@ -896,8 +871,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ProductImageViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T06:05:06.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T06:05:06.683Z"
             },
             {
               "$type": "Document",
@@ -909,8 +883,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ProductApiModelcs.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T18:00:00.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-17T18:00:00.802Z"
             },
             {
               "$type": "Document",
@@ -922,8 +895,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\PaymentViewModel.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAcwBoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T18:14:57.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T18:14:57.071Z"
             },
             {
               "$type": "Document",
@@ -935,8 +907,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\OrderItemViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:24:53.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:24:53.949Z"
             },
             {
               "$type": "Document",
@@ -948,8 +919,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\OrderHistoryViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:24:33.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:24:33.214Z"
             },
             {
               "$type": "Document",
@@ -961,8 +931,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\OrderCreateResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:24:14.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:24:14.726Z"
             },
             {
               "$type": "Document",
@@ -974,8 +943,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:37:58.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T15:37:58.079Z"
             },
             {
               "$type": "Document",
@@ -987,8 +955,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ImageApiModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T18:00:24.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-17T18:00:24.5Z"
             },
             {
               "$type": "Document",
@@ -1000,8 +967,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ForgotPasswordViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:20:57.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:20:57.595Z"
             },
             {
               "$type": "Document",
@@ -1013,8 +979,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T18:21:07.364Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T18:21:07.364Z"
             },
             {
               "$type": "Document",
@@ -1026,8 +991,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\DeliveryOption.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:52:55.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:52:55.401Z"
             },
             {
               "$type": "Document",
@@ -1039,8 +1003,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\DeliveryCalculationRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:24:07.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:24:07.835Z"
             },
             {
               "$type": "Document",
@@ -1052,8 +1015,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\CreateReviewViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T08:02:13.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T08:02:13.327Z"
             },
             {
               "$type": "Document",
@@ -1065,8 +1027,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\CheckoutViewModel.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAswCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:51:58.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:51:58.307Z"
             },
             {
               "$type": "Document",
@@ -1078,8 +1039,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\CategoryViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T07:45:39.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T07:45:39.593Z"
             },
             {
               "$type": "Document",
@@ -1091,8 +1051,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\CategoryDetailsViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:13:55.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:13:55.211Z"
             },
             {
               "$type": "Document",
@@ -1104,8 +1063,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\CartViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T05:54:39.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T05:54:39.648Z"
             },
             {
               "$type": "Document",
@@ -1117,8 +1075,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\CartItemViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T06:09:45.172Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T06:09:45.172Z"
             },
             {
               "$type": "Document",
@@ -1130,8 +1087,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\CartItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-02T05:54:17.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T05:54:17.076Z"
             },
             {
               "$type": "Document",
@@ -1143,8 +1099,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\BackupViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T07:41:02.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T07:41:02.714Z"
             },
             {
               "$type": "Document",
@@ -1156,8 +1111,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\AuditLogViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T06:07:37.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T06:07:37.526Z"
             },
             {
               "$type": "Document",
@@ -1169,8 +1123,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ApiUserResponse.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAIA7wAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T06:08:15.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T06:08:15.384Z"
             },
             {
               "$type": "Document",
@@ -1182,8 +1135,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:23:35.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:23:35.813Z"
             },
             {
               "$type": "Document",
@@ -1195,8 +1147,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ApiProductResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAiwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T06:22:57.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T06:22:57.725Z"
             },
             {
               "$type": "Document",
@@ -1208,8 +1159,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ApiOrderResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:23:34.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:23:34.954Z"
             },
             {
               "$type": "Document",
@@ -1221,8 +1171,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\ApiOrderDetailResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T22:23:33.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:23:33.961Z"
             },
             {
               "$type": "Document",
@@ -1234,8 +1183,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\AdminPanelViewModelcs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T06:07:00.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T06:07:00.987Z"
             },
             {
               "$type": "Document",
@@ -1247,8 +1195,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Models\\AdminOrderViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T06:20:49.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T06:20:49.396Z"
             },
             {
               "$type": "Document",
@@ -1260,8 +1207,7 @@
               "RelativeToolTip": "Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:13:57.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:13:57.341Z"
             },
             {
               "$type": "Document",
@@ -1273,8 +1219,7 @@
               "RelativeToolTip": "Models\\User.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-22T07:22:46.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-22T07:22:46.96Z"
             },
             {
               "$type": "Document",
@@ -1286,8 +1231,7 @@
               "RelativeToolTip": "Models\\Order.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAcwAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:50:33.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:50:33.269Z"
             },
             {
               "$type": "Document",
@@ -1299,8 +1243,7 @@
               "RelativeToolTip": "Models\\EmailService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAwA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:55:37.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:55:37.731Z"
             },
             {
               "$type": "Document",
@@ -1312,8 +1255,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Program.cs",
               "ViewState": "AgIAABIAAAAAAAAAAIBpwCcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:16:37.579Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:16:37.579Z"
             },
             {
               "$type": "Document",
@@ -1325,8 +1267,7 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T11:08:29.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T11:08:29.304Z"
             },
             {
               "$type": "Document",
@@ -1338,8 +1279,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Order\\Checkout.cshtml",
               "ViewState": "AgIAAIwAAAAAAAAAAOBvwDoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T18:22:30.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T18:22:30.052Z"
             },
             {
               "$type": "Document",
@@ -1351,8 +1291,7 @@
               "RelativeToolTip": "DTOs\\OrderDTO.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:50:16.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:50:16.618Z"
             },
             {
               "$type": "Document",
@@ -1364,8 +1303,7 @@
               "RelativeToolTip": "Controllers\\OrdersController.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAuwIYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:28:19.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:28:19.596Z"
             },
             {
               "$type": "Document",
@@ -1377,8 +1315,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Admin\\Backup.cshtml",
               "ViewState": "AgIAADUAAAAAAAAAAAAiwEEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T08:01:38.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T08:01:38.393Z"
             },
             {
               "$type": "Document",
@@ -1390,8 +1327,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAACBzwDsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-28T15:39:51.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T15:39:51.436Z"
             },
             {
               "$type": "Document",
@@ -1403,8 +1339,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Order\\Confirmation.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T17:56:43.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:56:43.655Z"
             },
             {
               "$type": "Document",
@@ -1416,8 +1351,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAO0AAAAAAAAAACBzwMoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T07:33:58.625Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T07:33:58.625Z"
             },
             {
               "$type": "Document",
@@ -1429,8 +1363,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Products\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYBAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T13:11:09.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T13:11:09.221Z"
             },
             {
               "$type": "Document",
@@ -1442,8 +1375,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Controllers\\BaseController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T13:27:19.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T13:27:19.66Z"
             },
             {
               "$type": "Document",
@@ -1455,8 +1387,7 @@
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AgIAAPEBAAAAAAAAAAAuwPsBAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T15:47:43.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T15:47:43.549Z"
             },
             {
               "$type": "Document",
@@ -1468,8 +1399,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAKICAAAAAAAAAAAiwMECAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T06:08:29.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T06:08:29.657Z"
             },
             {
               "$type": "Document",
@@ -1481,8 +1411,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-30T11:07:04.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T11:07:04.516Z"
             },
             {
               "$type": "Document",
@@ -1494,8 +1423,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T07:35:03.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T07:35:03.637Z"
             },
             {
               "$type": "Document",
@@ -1507,8 +1435,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Account\\ForgotPassword.cshtml",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-20T11:52:53.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:52:53.771Z"
             },
             {
               "$type": "Document",
@@ -1520,8 +1447,7 @@
               "RelativeToolTip": "Controllers\\OrderDetailsController.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAcwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:27:59.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:27:59.407Z"
             },
             {
               "$type": "Document",
@@ -1533,8 +1459,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Order\\Payment.cshtml",
               "ViewState": "AgIAADEAAAAAAAAAAAAowHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T18:16:42.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T18:16:42.268Z"
             },
             {
               "$type": "Document",
@@ -1546,8 +1471,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Account\\Register.cshtml",
               "ViewState": "AgIAAOIAAAAAAAAAAAAowAEBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-28T18:39:41.646Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T18:39:41.646Z"
             },
             {
               "$type": "Document",
@@ -1559,8 +1483,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Controllers\\ManagerController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T09:33:57.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T09:33:57.082Z"
             },
             {
               "$type": "Document",
@@ -1572,8 +1495,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Admin\\RegisterEmployee.cshtml",
               "ViewState": "AgIAADQAAAAAAAAAAAAmwDsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-20T20:13:34.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T20:13:34.222Z"
             },
             {
               "$type": "Document",
@@ -1585,8 +1507,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\layout.css",
               "ViewState": "AgIAALwAAAAAAAAAAAASwM4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-29T09:15:27.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T09:15:27.192Z"
             },
             {
               "$type": "Document",
@@ -1598,8 +1519,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\admin.css",
               "ViewState": "AgIAAJIBAAAAAAAAACBzwLkBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-14T07:27:47.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T07:27:47.959Z"
             },
             {
               "$type": "Document",
@@ -1611,8 +1531,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\products.css",
               "ViewState": "AgIAAIQAAAAAAAAAAAASwJQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-30T08:38:49.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:38:49.925Z"
             },
             {
               "$type": "Document",
@@ -1624,8 +1543,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\cart.css",
               "ViewState": "AgIAAF4DAAAAAAAAAAAwwIUDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-02T06:41:51.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T06:41:51.618Z"
             },
             {
               "$type": "Document",
@@ -1637,8 +1555,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-29T13:50:41.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T13:50:41.759Z"
             },
             {
               "$type": "Document",
@@ -1650,8 +1567,7 @@
               "RelativeToolTip": "DTOs\\RegisterEmployeeRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T20:11:10.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T20:11:10.153Z"
             },
             {
               "$type": "Document",
@@ -1663,8 +1579,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Account\\ResetPassword.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-20T11:53:18.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:53:18.568Z"
             },
             {
               "$type": "Document",
@@ -1676,8 +1591,7 @@
               "RelativeToolTip": "DTOs\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:27:55.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:27:55.552Z"
             },
             {
               "$type": "Document",
@@ -1689,8 +1603,7 @@
               "RelativeToolTip": "Controllers\\PromoCodesController.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAmwG0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:29:00.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:29:00.498Z"
             },
             {
               "$type": "Document",
@@ -1702,8 +1615,7 @@
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:28:18.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:28:18.888Z"
             },
             {
               "$type": "Document",
@@ -1715,8 +1627,7 @@
               "RelativeToolTip": "Models\\ResetPasswordRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:23:34.955Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:23:34.955Z"
             },
             {
               "$type": "Document",
@@ -1728,8 +1639,7 @@
               "RelativeToolTip": "Models\\ForgotPasswordRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:24:01.34Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:24:01.34Z"
             },
             {
               "$type": "Document",
@@ -1741,8 +1651,7 @@
               "RelativeToolTip": "DTOs\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-20T11:24:51.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-20T11:24:51.023Z"
             },
             {
               "$type": "Document",
@@ -1754,8 +1663,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\index.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAJQCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-29T13:09:42.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T13:09:42.874Z"
             },
             {
               "$type": "Document",
@@ -1767,8 +1675,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Cart\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAIB5wFABAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-02T05:55:16.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-02T05:55:16.562Z"
             },
             {
               "$type": "Document",
@@ -1780,8 +1687,7 @@
               "RelativeToolTip": "Controllers\\ImagesController.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAIwFoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:27:28.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:27:28.546Z"
             },
             {
               "$type": "Document",
@@ -1793,8 +1699,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\details.css",
               "ViewState": "AgIAANEDAAAAAAAAAAAwwPgDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-30T13:12:06.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T13:12:06.607Z"
             },
             {
               "$type": "Document",
@@ -1806,8 +1711,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\manager.css",
               "ViewState": "AgIAAKYAAAAAAAAAAIB5wL4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-16T10:08:24.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T10:08:24.906Z"
             },
             {
               "$type": "Document",
@@ -1819,8 +1723,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAkwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:12:17.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:12:17.285Z"
             },
             {
               "$type": "Document",
@@ -1832,8 +1735,7 @@
               "RelativeToolTip": "Models\\Image.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T17:51:51.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-17T17:51:51.857Z"
             },
             {
               "$type": "Document",
@@ -1845,8 +1747,7 @@
               "RelativeToolTip": "DTOs\\ImageDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T13:15:56.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T13:15:56.811Z"
             },
             {
               "$type": "Document",
@@ -1858,8 +1759,7 @@
               "RelativeToolTip": "DTOs\\ProductDTO.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAkwA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:05:24.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:05:24.824Z"
             },
             {
               "$type": "Document",
@@ -1871,8 +1771,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-29T13:07:11.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-29T13:07:11.712Z"
             },
             {
               "$type": "Document",
@@ -1884,8 +1783,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-10-14T13:36:03.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T13:36:03.398Z"
             },
             {
               "$type": "Document",
@@ -1897,8 +1795,7 @@
               "RelativeToolTip": "DTOs\\OrderDetailDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:50:27.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:50:27.707Z"
             },
             {
               "$type": "Document",
@@ -1910,8 +1807,7 @@
               "RelativeToolTip": "Models\\AuditLog.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T08:31:41.315Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T08:31:41.315Z"
             },
             {
               "$type": "Document",
@@ -1923,8 +1819,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Order\\MyOrders.cshtml",
               "ViewState": "AgIAAAEAAAAAAAAAAAAlwAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T22:12:36.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:12:36.115Z"
             },
             {
               "$type": "Document",
@@ -1936,8 +1831,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Account\\Profile.cshtml",
               "ViewState": "AgIAAC0AAAAAAAAAAIB5wAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T06:10:32.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T06:10:32.959Z"
             },
             {
               "$type": "Document",
@@ -1949,8 +1843,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Account\\EditProfile.cshtml",
               "ViewState": "AgIAADgAAAAAAAAAAJB6wGcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-09T06:11:09.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T06:11:09.829Z"
             },
             {
               "$type": "Document",
@@ -1962,8 +1855,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\checkout.css",
               "ViewState": "AgIAAEwDAAAAAAAAAAAqwHADAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-13T17:56:08.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:56:08.218Z"
             },
             {
               "$type": "Document",
@@ -1975,8 +1867,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Views\\Order\\OrderDetails.cshtml",
               "ViewState": "AgIAACcAAAAAAAAAAIB5wAUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-13T22:15:26.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:15:26.763Z"
             },
             {
               "$type": "Document",
@@ -1988,8 +1879,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T11:09:16.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T11:09:16.218Z"
             },
             {
               "$type": "Document",
@@ -2001,8 +1891,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\my-orders.css",
               "ViewState": "AgIAAKoAAAAAAAAAAAAqwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-13T22:13:09.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T22:13:09.956Z"
             },
             {
               "$type": "Document",
@@ -2014,8 +1903,7 @@
               "RelativeToolTip": "Models\\OrderDetail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:50:23.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:50:23.969Z"
             },
             {
               "$type": "Document",
@@ -2027,8 +1915,7 @@
               "RelativeToolTip": "Controllers\\ReviewsController.cs",
               "ViewState": "AgIAAN0AAAAAAAAAAAAIwAABAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:29:16.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:29:16.426Z"
             },
             {
               "$type": "Document",
@@ -2040,8 +1927,7 @@
               "RelativeToolTip": "DTOs\\CreateReviewRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:26:51.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T17:26:51.805Z"
             },
             {
               "$type": "Document",
@@ -2053,8 +1939,7 @@
               "RelativeToolTip": "DTOs\\ReviewDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T11:55:47.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T11:55:47.109Z"
             },
             {
               "$type": "Document",
@@ -2066,8 +1951,7 @@
               "RelativeToolTip": "DTOs\\RegisterDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T11:56:11.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T11:56:11.257Z"
             },
             {
               "$type": "Document",
@@ -2079,8 +1963,7 @@
               "RelativeToolTip": "DTOs\\ReviewUpdateDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T11:57:03.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-13T11:57:03.616Z"
             },
             {
               "$type": "Document",
@@ -2092,8 +1975,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\edit-profile.css",
               "ViewState": "AgIAAMUBAAAAAAAAAAAowOoBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-09T07:51:27.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T07:51:27.33Z"
             },
             {
               "$type": "Document",
@@ -2105,8 +1987,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\login.css",
               "ViewState": "AgIAAGkAAAAAAAAAAIB5wJUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-28T18:25:11.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T18:25:11.962Z"
             },
             {
               "$type": "Document",
@@ -2118,8 +1999,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\register.css",
               "ViewState": "AgIAAMAAAAAAAAAAAIB5wAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-28T16:43:15.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:43:15.476Z"
             },
             {
               "$type": "Document",
@@ -2131,8 +2011,7 @@
               "RelativeToolTip": "..\\CosmeticShopWeb\\wwwroot\\css\\profile.css",
               "ViewState": "AgIAALYBAAAAAAAAAAAAwMsBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-10-09T06:20:26.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T06:20:26.065Z"
             },
             {
               "$type": "Document",
@@ -2144,8 +2023,7 @@
               "RelativeToolTip": "Controllers\\CategoriesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T16:27:07.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T16:27:07.453Z"
             },
             {
               "$type": "Document",
@@ -2157,8 +2035,7 @@
               "RelativeToolTip": "DTOs\\CategoryWithProductsDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:16:19.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:16:19.79Z"
             },
             {
               "$type": "Document",
@@ -2170,8 +2047,7 @@
               "RelativeToolTip": "DTOs\\CategoryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:15:54.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T08:15:54.64Z"
             },
             {
               "$type": "Document",
@@ -2183,12 +2059,7 @@
               "RelativeToolTip": "Models\\ApiResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T08:19:48.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-09-30T08:19:48.933Z"
             },
             {
               "$type": "Bookmark",

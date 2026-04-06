@@ -32,24 +32,16 @@ jobs:
           dotnet restore "$PROJECT_PATH"
           dotnet build "$PROJECT_PATH" -c Release --no-restore
 
-      - name: Upload build output
-        uses: actions/upload-artifact@v4
-        with:
-          name: net-build
-          path: |
-            bin
-            obj
-
   lint-check:
     name: lint-check
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up .NET SDK
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "8.0.x"
 
@@ -71,10 +63,10 @@ jobs:
     continue-on-error: true
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up .NET SDK
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "8.0.x"
 
@@ -96,22 +88,18 @@ jobs:
     continue-on-error: true
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up .NET SDK
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v5
         with:
           dotnet-version: "8.0.x"
-
-      - name: Download build output
-        uses: actions/download-artifact@v4
-        with:
-          name: net-build
 
       - name: Запуск тестов
         run: |
           echo "=== Запуск тестов ==="
-          dotnet test "$PROJECT_PATH" -c Release --no-build --verbosity normal
+          dotnet restore "$PROJECT_PATH"
+          dotnet test "$PROJECT_PATH" -c Release --verbosity normal
 
   run-backend:
     name: run-backend
@@ -121,7 +109,7 @@ jobs:
     continue-on-error: true
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up .NET SDK
         uses: actions/setup-dotnet@v4
